@@ -1,26 +1,27 @@
-# ParseNmap
-Parsenmap
+# Parsenmap
+
 This is a tool for parsing nmap xml file to csv or json.
 
-USAGE:
-      $ parsenmap <from> <to> -f <filetype>
+**USAGE:** <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ parsenmap <from> <to> -f <filetype>`
 
-FLAGS:
-      -h, --help - Prints help information
-      -V, --version - Prints version information
+**FLAGS:** <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-h, --help - Prints help information <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-V, --version - Prints version information <br/>
 
-OPTIONS:
-      -f {filetype} - Output file format csv or json
+**OPTIONS:** <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-f {filetype} - Output file format csv or json
 
-ARGS:
-      {from} - Nmap xml file path
-      {to} - Output file path
+**ARGS:** <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{from} - Nmap xml file path <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{to} - Output file path
 
-EXAMPLE:
-      $ parsenmap nmap.xml nmap.csv -f csv
+**EXAMPLE:** <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ parsenmap nmap.xml nmap.csv -f csv`
 
-IN-CODE USAGE EXAMPLE:
+**IN-CODE USAGE EXAMPLE:** <br/>
 
+```rust
 use parsenmap::models::scan::FileType;
 
 fn main() {
@@ -29,3 +30,4 @@ fn main() {
     let json:String =  scan.to_json();
     let csv:String =  scan.to_csv();
 }
+```
