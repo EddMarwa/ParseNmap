@@ -12,6 +12,7 @@ This is a tool for parsing nmap xml file to csv or json.
 **OPTIONS:** <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-f {filetype} - Output file format csv or json
 
+
 **ARGS:** <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{from} - Nmap xml file path <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{to} - Output file path
