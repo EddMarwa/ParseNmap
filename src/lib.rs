@@ -17,7 +17,7 @@ use std::fs::File;
 use std::io::BufReader;
 
 /// # Parse nmap xml file
-///
+
 /// This function returns ready for data-manipulation Scan object,
 /// which contains nmap scan info. 
 /// You can use result for your needs or convert it to json or csv file.
