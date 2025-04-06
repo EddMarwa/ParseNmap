@@ -1,6 +1,6 @@
 //! # Parsenmap
 //! All documents should be in XML file
-// It translates XML filr format data into csv or 
+// It translates XML filr format data into 
 //! `parsenmap` is a tool for parsing nmap xml file to csv or json.
 #[macro_use]
 mod macroses;
