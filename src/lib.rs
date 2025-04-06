@@ -1,5 +1,5 @@
 //! # Parsenmap
-//! All documents should be
+//! All documents should 
 //! `parsenmap` is a tool for parsing nmap xml file to csv or json.
 #[macro_use]
 mod macroses;
