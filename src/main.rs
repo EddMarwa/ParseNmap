@@ -14,7 +14,6 @@ use structopt::StructOpt;
 struct Opt {
     /// Output file format csv or json
     //
-    //
     #[structopt(short)]
     filetype: String,
     /// Nmap xml file path
