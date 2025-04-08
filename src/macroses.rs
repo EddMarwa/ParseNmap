@@ -1,6 +1,7 @@
 pub type SameType<T> = T;
 //
 //
+//
 
 #[macro_export]
 macro_rules! Initializer {
