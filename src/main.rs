@@ -26,7 +26,6 @@ struct Opt {
 
 
 
-    
     #[structopt(short)]
     filetype: String,
     /// Nmap xml file path
