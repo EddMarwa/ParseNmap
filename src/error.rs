@@ -6,6 +6,9 @@ pub struct ParsenmapError {
 
 impl From<xml::reader::Error> for ParsenmapError {
     ///
+
+
+    
     /// Generates error from `xml::reader::Error`
     ///
     /// ```
