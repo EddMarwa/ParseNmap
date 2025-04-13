@@ -19,9 +19,8 @@ impl From<std::io::Error> for ParsenmapError {
     //
     /// Generates error from `std::io::Error`
     //
-    //
 
-    
+
     // //
     // //
 
