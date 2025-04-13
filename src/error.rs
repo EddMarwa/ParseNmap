@@ -21,8 +21,6 @@ impl From<std::io::Error> for ParsenmapError {
     //
     //
     //
-
-
     //  ```
     fn from(e: std::io::Error) -> Self {
         ParsenmapError { err: e.to_string() }
