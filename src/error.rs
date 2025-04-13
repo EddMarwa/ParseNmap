@@ -20,10 +20,12 @@ impl From<std::io::Error> for ParsenmapError {
     /// Generates error from `std::io::Error`
     //
     //
+
+    
     // //
     // //
 
-    
+
     //  ```
     fn from(e: std::io::Error) -> Self {
         ParsenmapError { err: e.to_string() }
