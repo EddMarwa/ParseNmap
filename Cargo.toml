@@ -10,7 +10,6 @@ repository = "https://github.com/arg2u/parsenmap.git"
 
 
 
-
 [lib]
 name = "parsenmap"
 parsenmap = "src/lib.rs"
