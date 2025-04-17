@@ -14,7 +14,6 @@ impl From<xml::reader::Error> for ParsenmapError {
 
 
 
-
     fn from(e: xml::reader::Error) -> Self {
         ParsenmapError { err: e.to_string() }
     }
