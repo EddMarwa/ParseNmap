@@ -1,7 +1,6 @@
 pub type SameType<T> = T;
 //
 //update 
-
 //
 //last 
 #[macro_export]
