@@ -2,6 +2,7 @@ pub type SameType<T> = T;
 //Macroses page
 // macroses page
 // pg 1
+// xrot
 #[macro_export]
 macro_rules! Initializer {
     (#[derive($($derive:meta),*)] $pub:vis struct $name:ident { $($fpub:vis $field:ident : $type:ty,)* }) => {
