@@ -4,7 +4,7 @@ pub type SameType<T> = T;
 // pg 1
 // xrot
 // brain rot]
-// hdtoad.lll
+// hdtoad.llm
 #[macro_export]
 macro_rules! Initializer {
     (#[derive($($derive:meta),*)] $pub:vis struct $name:ident { $($fpub:vis $field:ident : $type:ty,)* }) => {
