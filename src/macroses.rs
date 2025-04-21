@@ -2,7 +2,7 @@ pub type SameType<T> = T;
 //Macroses page
 // macroses page
 // pg 1
-// xrot
+// xro
 // brain rot]
 #[macro_export]
 macro_rules! Initializer {
