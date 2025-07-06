@@ -11,7 +11,6 @@ impl From<xml::reader::Error> for ParsenmapError {
         ParsenmapError { err: e.to_string() }
     }
 }
-
 impl From<std::io::Error> for ParsenmapError {
     // Generates error from `std::io::Error`
     fn from(e: std::io::Error) -> Self {
