@@ -1,4 +1,4 @@
-//! # Error handler
+//! Error handler
 #[derive(Debug)]
 pub struct ParsenmapError {
     pub err: String,
