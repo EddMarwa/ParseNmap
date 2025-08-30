@@ -2,6 +2,8 @@
 
 This is a tool for parsing nmap xml file to csv or json.
 
+
+
 **USAGE:** <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ parsenmap <from> <to> -f <filetype>`
 
