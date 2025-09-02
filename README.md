@@ -17,6 +17,7 @@ This is a tool for parsing nmap xml file to csv or json.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{from} - Nmap xml file path <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{to} - Output file path
 
+
 **EXAMPLE:** <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ parsenmap nmap.xml nmap.csv -f csv`
 
