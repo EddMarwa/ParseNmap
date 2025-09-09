@@ -12,7 +12,6 @@ use xml::reader::XmlEvent;
 use xml::EventReader;
 
 extern crate xml;
-
 use std::fs::File;
 use std::io::BufReader;
 
